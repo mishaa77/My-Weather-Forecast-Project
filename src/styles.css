@@ -1,10 +1,17 @@
 body {
   background-image: url(/img/sky.jpg);
+  background-position: center;
+  background-size: cover;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #885df1;
+  color: #3d6d9d;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .weather-app {
@@ -31,7 +38,7 @@ header {
 }
 
 .search-form-button {
-  background: #885df1;
+  background: #3d6d9d;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
